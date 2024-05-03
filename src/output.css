@@ -684,6 +684,10 @@ i{
   top: 50%;
 }
 
+.-z-10{
+  z-index: -10;
+}
+
 .z-10{
   z-index: 10;
 }
@@ -702,10 +706,6 @@ i{
 
 .z-50{
   z-index: 50;
-}
-
-.-z-10{
-  z-index: -10;
 }
 
 .mx-auto{
@@ -816,6 +816,10 @@ i{
 
 .h-full{
   height: 100%;
+}
+
+.h-56{
+  height: 14rem;
 }
 
 .w-1\/2{
@@ -1461,6 +1465,14 @@ i{
 
   .md\:h-\[700px\]{
     height: 700px;
+  }
+
+  .md\:h-96{
+    height: 24rem;
+  }
+
+  .md\:h-\[600px\]{
+    height: 600px;
   }
 
   .md\:w-auto{
